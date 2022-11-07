@@ -1,0 +1,26 @@
+[
+ {
+  "title": "Snowboard Professional Yellow",
+  "price": 250,
+  "thumbnail": "https://m.media-amazon.com/images/I/71NNyYB2ViL._AC_SY355_.jpg",
+  "id": 1
+ },
+ {
+  "title": "Snowrunner Goggles",
+  "price": 50,
+  "thumbnail": "https://d368r8jqz0fwvm.cloudfront.net/684-product_lg/antiparra-snowrunner.jpg",
+  "id": 2
+ },
+ {
+  "title": "Jacket SNOW RIP CURL TWISTER",
+  "price": 244,
+  "thumbnail": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/162/180/products/a121-33709218b2abcb2e0816267989589335-480-0.jpg",
+  "id": 3
+ },
+ {
+  "title": "Columbia Ice Maiden II",
+  "price": 67,
+  "thumbnail": "https://m.media-amazon.com/images/I/71oo+dUysKS._AC_UY500_.jpg",
+  "id": 4
+ }
+]

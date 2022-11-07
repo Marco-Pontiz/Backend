@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <%if(list.length==0){%>
+        <h2>
+            no hay productos
+        </h2>
+    <%} else{%>
+        <table>
+            <tr>
+                <th>nombre</th>
+                <th>precio</th>
+                <th>imagen</th>
+            </tr>
+            <% list.forEach((element) => {%>
+                <tr>
+                    <td><%=element.nombre%></td>
+                    <td><%=element.precio%></td>
+                    <td><%=element.imagen%></td>
+                </tr>
+            <%})%>
+        </table>
+    <%}%>
+    <a href="/"><button>inicio!</button></a>
+</body>
+</html>

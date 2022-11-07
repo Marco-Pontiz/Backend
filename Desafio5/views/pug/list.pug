@@ -1,0 +1,19 @@
+html 
+    head 
+        title='list'
+    body 
+        if list.length == 0
+            h2 no hay Productos
+        else 
+            table
+                tr
+                    th nombre 
+                    th precio 
+                    th imagen
+                each element in list   
+                    tr
+                        td=element.nombre 
+                        td=element.precio 
+                        td=element.imagen 
+        a(href="/")
+            button volver! 
