@@ -1,19 +1,20 @@
 html 
     head 
-        title='list'
-    body 
+        title='List en pug'
+        link(rel='stylesheet', href='./stylePug.css')
+    body(class='body-list')
         if list.length == 0
             h2 no hay Productos
         else 
-            table
+            table(class='table')
                 tr
-                    th nombre 
-                    th precio 
-                    th imagen
+                    th(class='categorys') nombre 
+                    th(class='categorys') precio 
+                    th(class='categorys') imagen
                 each element in list   
-                    tr
+                    tr(class='product')
                         td=element.nombre 
                         td=element.precio 
                         td=element.imagen 
         a(href="/")
-            button volver! 
+            button(class="boton-inicio") volver! 
