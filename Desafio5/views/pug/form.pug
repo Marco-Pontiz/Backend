@@ -1,25 +1,25 @@
 html 
     head 
         title='formulario con pug'
-        link(rel="stylesheet", href="/public/stylePug.css")
     body 
+
+    h2 Agrega un Producto
         form(
             action='/api/productos'
             method='post'
         )
-            p nombre 
             input(
                 type='text'
                 name='nombre'
+                placeholder='nombre'
             )
             br
-            p precio
             input(
                 type='text'
                 name='precio'
+                placeholder='precio'
             ) 
             br
-            p imagen 
             input(
                 type='file'
                 name='imagen'
@@ -30,3 +30,5 @@ html
             ) Agregar!!         
         a(href="/list")
                 button Mostrar todos
+            
+        script(src="../../main.js")

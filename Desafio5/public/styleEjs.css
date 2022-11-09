@@ -1,3 +1,5 @@
+/*form.ejs*/
+
 *{
     margin:0;
     padding:0;
@@ -7,6 +9,172 @@
     size: 2px;
 }
 
+.body-ejs{
+    background-color: rgb(160, 207, 103);
+    text-align:center;
+    margin-top:8rem;
+    width:100%;
+}
+
+.container-form{
+    background-color: rgba(89, 31, 0, 0.7);
+    text-align:start;
+    width:25%;
+    margin-left: 30rem;
+    padding:2rem;
+    border:2px solid rgba(89, 31, 0, 1);
+    border-radius: 3%;
+}
+
+.inputs-precio{
+    padding:4px;
+    margin:4px;
+    margin-top:20px;
+    width:95%;
+}
+
+.inputs-file{
+    padding:4px;
+    margin:4px;
+    margin-top:20px;
+}
+
+.inputs-name{
+    padding:4px;
+    margin:4px;
+    width:95%;
+}
+
 .h-2{
-    color:rgb(47, 130, 247);
+    color:rgb(150, 35, 35);
+    margin-bottom:2rem;
+}
+
+.button{
+    background-color:rgb(150, 35, 35);
+    border:none;
+    padding:5px;
+    margin-top:2rem;
+}
+
+/*list.ejs*/
+
+ *{
+    margin:0;
+    padding:0;
+}
+
+.body-list{
+    background-color: rgb(160, 207, 103);
+}
+
+.table{
+    background-color: rgba(89, 31, 0, 0.7);
+    width:100%;
+    color:white;
+    text-align: center;
+}
+
+.categorys{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.boton-inicio{
+    background-color:rgb(150, 35, 35);
+    width:5%;
+    margin-left:45%;
+    margin-top:5rem;
+}
+
+
+
+/*Haciendolo vista a celular L*/
+
+@media (max-width:425px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    
+    .body-ejs{
+        background-color: rgb(160, 207, 103);
+        text-align:center;
+        margin-top:8rem;
+    }
+
+    .container-form{
+        background-color:rgba(89, 31, 0, 0.7);
+        width:75%;
+        margin-left:1rem;
+    }
+
+    .inputs-name{
+        padding:4px;
+        margin:4px;
+        width:95%;
+    }
+
+    .inputs-precio{
+        padding:4px;
+        margin:4px;
+        margin-top:2rem;
+        width:95%;
+    }
+
+    .button-add{
+        margin-top:3rem;
+        margin-left:8rem;
+    }
+
+    .button{
+        margin-top:2rem;
+        background-color:rgb(150, 35, 35);
+        color:white;
+    }
+
+    /*Lista.ejs*/
+    .boton-inicio{
+        background-color:rgb(150, 35, 35);
+        width:20%;
+        height: 50px;
+        color:white;
+        margin-left:43%;
+        margin-top:5rem;
+        border-radius: 5%;
+    }
+
+}
+/* Haciendo vista a celular S*/
+@media (max-width:320px){
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .container-form{
+        width:70%;
+    }
+
+    .inputs-file{
+        padding:4px;
+        margin:4px;
+        margin-top:15px;
+        width:58%;
+        text-align: start;
+    }
+    .button{
+        margin-top:2rem;
+        background-color:rgb(150, 35, 35);
+        color:white;
+    }
+    
+    .container-add{
+        width:100%;
+    }
+    .button-add{
+        margin-top:3rem;
+        margin-left:5rem;
+    }
 }

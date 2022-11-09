@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="../../public/styleEjs.css">
+    <link rel="stylesheet" href="./styleEjs.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario en ejs</title>
 </head>
-<body>
+<body class="body-ejs">
     <h2 class="h-2">Agrega un producto</h2>
-    <div>
+    <div class="container-form">
         <form action="/api/productos" method="post">
-            nombre : <input type="text" name="nombre"><br>
-            precio: <input type="text" name="precio"><br>
-            imagen : <input type="file" name="imagen"><br>
-        <button type="submit" class="button">Agregar!</button>
+            <input type="text" name="nombre" placeholder="Nombre" class="inputs-name"><br>
+            <input type="text" name="precio" placeholder="Precio" class="inputs-precio"><br>
+            <input type="file" name="imagen" class="inputs-file"><br>
+        <div class="container-add">
+        <button type="submit" class="button-add">Agregar!</button> 
+        </div>
         </form>
     </div>
     <a href="/list"><button class="button">Mostrar todo!</button></a>
