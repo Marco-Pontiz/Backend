@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Keyboard",
+        "timestamp": 123512341,
+        "description": "Keyboard Red Dragon ",
+        "code": "0AB3",
+        "price": 85000,
+        "stock": 500,
+        "quantity": 20,
+        "id": 1
+    },
+    {
+        "name": "Mouse",
+        "timestamp": 123512341,
+        "description": "Mouse Red Dragon RGB Bluethoot ",
+        "code": "BHSDGSD",
+        "price": 50000,
+        "stock": 500,
+        "quantity": 30,
+        "id": 2
+    },
+    {
+        "name": "Monitor",
+        "timestamp": 123512341,
+        "description": "Asus Monitor",
+        "code": "BHSDGSD",
+        "price": 50000,
+        "stock": 500,
+        "quantity": 30,
+        "id": 3
+    }
+]

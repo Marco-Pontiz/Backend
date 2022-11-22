@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "timestamp": "21/11/2022 12:36:52",
+        "products": [
+            {
+                "name": "Keyboard",
+            "timestamp": 123512341,
+            "description": "Keyboard Red Dragon ",
+            "code": "0AB3",
+            "price": 85000,
+            "stock": 500,
+            "quantity": 20,
+            "id": 1
+            },
+            {
+                "name": "Mouse",
+            "timestamp": 123512341,
+            "description": "Mouse Red Dragon RGB Bluethoot ",
+            "code": "BHSDGSD",
+            "price": 50000,
+            "stock": 500,
+            "quantity": 30,
+            "id": 2
+            },
+            {
+                "name": "Monitor",
+            "timestamp": 123512341,
+            "description": "Asus Monitor",
+            "code": "BHSDGSD",
+            "price": 50000,
+            "stock": 500,
+            "quantity": 30,
+            "id": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "timestamp": "21/11/2022 13:8:49",
+        "products": [
+            {
+                "name": "Logi Mouse",
+                "timestamp": 123512341,
+                "description": "A powerful gaming mouse",
+                "code": "0AB3",
+                "price": 299,
+                "stock": 200,
+                "quantity": 10,
+                "id": 1
+            }
+        ]
+    }
+]

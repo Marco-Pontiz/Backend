@@ -1,8 +1,1 @@
-[
-    {
-        "nombre":"Camara de foto",
-        "precio":"150000",
-        "thumbnail":"camara.jpg",
-        "id":1
-    }
-]
+[{"nombre":"Camara de foto","precio":"150000","thumbnail":"camara.jpg","id":1},{"nombre":"Sony PlayStation 5 825GB Standard color blanco y negro","precio":"347000","thumbnail":"ps5.jpg","id":2}]

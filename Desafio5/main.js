@@ -12,13 +12,13 @@ app.use(express.urlencoded({
 }))
 
 app.set('views', './views')
-app.set('view engine', 'pug')
+app.set('view engine', 'ejs')
 app.get('/', (req, res) => {
-    return res.render('pug/form')
+    return res.render('ejs/form')
 })
 
 app.get('/list', (req, res) =>{
-    return res.render('pug/list',{
+    return res.render('ejs/list',{
         list: products.list
     })
 })
